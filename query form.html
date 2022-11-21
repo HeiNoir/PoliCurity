@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <div class="topnav">
+    <a href="main.html">Regulation of AI</a>
+    <a class="active" href="query form.html">Contacts</a>
+    <a href="cyperSec.html">Cyber Security</a>
+    <a href="bigTech.html">Big Tech</a>
+  </div>
+  <div class="div"><div class="div-border"><h1 id="title">Contacts</h1></div></div>
+  <div class="hdiv"><div class="hdiv-border"><h3>Here is a list of the management department and their emails: </h3></div></div>
+  <ul>
+    <li>Junjiang Wu: 09jwu@brightoncollege.net</li>
+    <li>Peter Zhu: 09pzhu@brightoncollege.net</li>
+    <li>Yuri Zykov: 09yzykov@brightoncollege.net</li>
+  </ul>
+  <p><u>If you have anything you would like to ask any of us please send an email through the contact form below: </u></p>
+  <form onsubmit="validateForm()">
+    <label>Email: </label><br>
+    <input id="email"/><br>
+    <label>Subject: </label><br>
+    <input id="sbj"/><br>
+    <label>Message: </label><br>
+    <textarea id="msg" rows="6" columns="100" maxwidth="300"></textarea><br>
+    <input id="submit" type="submit"/>
+  </form>
+  <script src="Playground.js"></script>
+</body>
+</html>
